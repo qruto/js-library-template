@@ -25,7 +25,8 @@
     "lint": "eslint . --fix",
     "test": "vitest --run",
     "test:watch": "vitest",
-    "test:coverage": "vitest --coverage --run"
+    "test:coverage": "vitest --coverage --run",
+    "prepare": "husky"
   },
   "homepage": "https://github.com/vendor/library-name",
   "repository": {
@@ -45,6 +46,8 @@
     "url": "https://my.page.com/"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@eslint/compat": "^1.1.0",
     "@eslint/js": "^9.5.0",
     "@types/node": "^20.14.2",
@@ -52,6 +55,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
     "globals": "^15.6.0",
+    "husky": "^9.0.11",
     "prettier": "3.3.2",
     "typescript": "^5.2.2",
     "typescript-eslint": "^7.13.0",
