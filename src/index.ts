@@ -1,3 +1,1 @@
-function example() {
-    return 0;
-}
+export { module } from './module';

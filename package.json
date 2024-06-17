@@ -1,5 +1,5 @@
 {
-  "name": "library-template-vite",
+  "name": "library-name",
   "version": "1.0.0",
   "description": "JavaScript Library Template built using Vite",
   "license": "MIT",
@@ -46,7 +46,6 @@
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
-    "camelcase": "^8.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.1",
