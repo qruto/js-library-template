@@ -1,0 +1,55 @@
+{
+  "name": "library-template-vite",
+  "version": "1.0.0",
+  "description": "JavaScript Library Template built using Vite",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/library-name.cjs",
+  "module": "dist/library-name.js",
+  "types": "dist/library-name.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/library-name.js",
+      "require": "./dist/library-name.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest --coverage"
+  },
+  "homepage": "https://github.com/vendor/library-name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vendor/library-name"
+  },
+  "keywords": [
+    "javascript",
+    "library",
+    "template",
+    "vite",
+    "build"
+  ],
+  "author": {
+    "name": "My Name",
+    "email": "my@email.com",
+    "url": "https://my.page.com/"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "camelcase": "^8.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^1.6.0"
+  }
+}
