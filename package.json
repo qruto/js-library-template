@@ -24,7 +24,6 @@
     "build": "tsc && vite build",
     "lint": "eslint . --fix",
     "test": "vitest --run",
-    "test:watch": "vitest",
     "test:coverage": "vitest --coverage --run",
     "prepare": "husky"
   },
